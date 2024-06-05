@@ -1,9 +1,11 @@
 
 
-here i share some of my main focus point code that are help to solved my dynamic report generate problem.
+### Here, I am sharing some key pieces of code that helped me solve my dynamic report generation problem.
 
+```
 <!--Start html page code -->
 <!-- generate dynamic HTML Table with unlimited columns-->
+
 <nb-card>
   <nb-card-body>
     <div class="table-wrapper-scroll-y my-custom-scrollbar">
@@ -68,9 +70,10 @@ here i share some of my main focus point code that are help to solved my dynamic
 
 <!--End (url)html page code -->
 
-
-
 <!--Start ts page code -->
+```
+
+```
 //Angular Code
 
   @ViewChild("simple_tableData") tableSales: ElementRef;
@@ -239,7 +242,7 @@ here i share some of my main focus point code that are help to solved my dynamic
   
 <!--End ts page code -->
 
-
+```
 
 
 
